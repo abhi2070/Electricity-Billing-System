@@ -141,7 +141,7 @@ public class Signup extends JFrame implements ActionListener {
             String susername=username.getText();
             String sname=name.getText();
             String spassword=password.getText();
-            String smeter=password.getText();
+            String smeter=meter.getText();
             
             try{
                 Conn c=new Conn();
