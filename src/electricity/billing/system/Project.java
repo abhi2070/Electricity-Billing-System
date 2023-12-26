@@ -239,7 +239,7 @@ public class Project extends JFrame implements ActionListener {
             new Login();
         }else if(msg.equals("Pay Bill")){
             new PayBill(meter);
-        }else if(msg.equals("Generate Bill")){
+        }else if(msg.equals("Generat Bill")){
             new GenerateBill(meter);
         }
     
